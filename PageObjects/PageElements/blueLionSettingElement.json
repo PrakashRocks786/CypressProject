@@ -1,0 +1,42 @@
+{
+    "SettingElementLocators":{
+        "User_Icon":"a[class='dropdown-toggle user-dropdown no-arrow'] img",
+        "Setting_Button":".user-menu > :nth-child(2) > a"
+    },
+    "AccountSettingLocators":{
+         "Account_First_Name":".tab-data > form.ng-untouched > .row > :nth-child(1) > .form-control",
+         "Account_Last_Name":"form.ng-dirty > .row > :nth-child(2) > .form-control",
+         "Account_Gender":":nth-child(3) > .form-select",
+         "Account_MaritalStatus":":nth-child(4) > .form-select",
+         "Account_Bio":"form.ng-dirty > .row > .mb-3.col-lg-12 > .form-control",
+         "AccountSetting_SaveButton":"form.ng-dirty > .row > .d-flex > .btn",
+         "Email_Tab":"#pills-email-tab",
+         "Email_Feild":".tab-data > .row > .col-lg-6 > .form-control",
+         "Email_Send":".tab-data > .row > .col-lg-3 > .btn",
+         "Email_Popup_Text":"#otpEmailPopup > .modal-dialog > .modal-content > .modal-body > .modal-title-text",
+         "Email_OTP_Feild":"#otpEmailPopup > .modal-dialog > .modal-content > .modal-body > .mb-3 > .form-control",
+         "Email_Verify_Button":"#otpEmailPopup > .modal-dialog > .modal-content > .modal-body > .d-flex > .btn",
+         "Pnone_No_Tab":"#pills-phoneno-tab",
+         "Phone_No_Input":"#phoneInput",
+         "Phone_No_SendButton":".row.ng-untouched > .row > .col-lg-3 > .btn",
+         "Address_Tab":"#pills-address-tab",
+         "Add_New_Address_Button":".btn.btn-blue.add-address",
+         "Add_Address_Text_Visibility":"div[id='add-address'] h4[class='modal-title-text']",
+         "Address_Line_1":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(1) > .form-control",
+         "Address_Line_2":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > input:nth-child(2)",
+         "Address_City":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(3) > input:nth-child(2)",
+         "Address_Postal_Code":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(4) > input:nth-child(2)",
+         "Address_Country":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(5) > .form-select",
+         "Save_Address_Button":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > .d-flex > .btn",
+         "Edit_Address_Button":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > i:nth-child(2)",
+         "Update_Text_Visibility":"div[id='update-address'] h4[class='modal-title-text']",
+         "Update_Address_Line_1":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)",
+         "Update_Address_Line_2":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(2) > input:nth-child(2)",
+         "Update_Address_City":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(3) > input:nth-child(2)",
+         "Update_Address_Postal_Code":"body > app-root:nth-child(1) > app-settings:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(2) > div:nth-child(1) > div:nth-child(4) > input:nth-child(2)",
+         "Update_Address_Save":"div[id='update-address'] button[type='submit']",
+         "Update_Address_Country":"#update-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(5) > .form-select",
+         "Delete_Address":":nth-child(1) > .address-card > .address-footer > .fi-rr-cross-circle"
+         
+    }
+}

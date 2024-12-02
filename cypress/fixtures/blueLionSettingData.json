@@ -1,0 +1,19 @@
+{
+    "firstName":"Automation",
+    "lastName":"Cypress",
+    "gender":1,
+    "maritalStatus":1,
+    "bio":"Hello",
+    "EmailOTP":"1111",
+    "phoneNumber":"7676773398",
+    "AddressLine1":"2611",
+    "AddressLine2":"The Corenthum",
+    "City":"Noida62",
+    "PostalCode":"201301",
+    "Country":"India",
+    "UpdateAddressLine1":"2612",
+    "UpdateAddressLine2":"The CorenthumTower",
+    "UpdateCity":"Gautam Budh Nagar",
+    "UpdatePostalCode":"111111",
+    "UpdateCountry":"Australia"
+}

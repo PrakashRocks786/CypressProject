@@ -1,0 +1,11 @@
+{
+    "loginElementLocators":{
+        "mobileNumber":"#phoneInput",
+        "submitButton":"button[type='submit']",
+        "FirstOTP":":nth-child(1) > .form-control",
+        "SecondOTP":":nth-child(2) > .form-control",
+        "ThirdOTP":":nth-child(3) > .form-control",
+        "FourthOTP":":nth-child(4) > .form-control"
+        
+    }
+}

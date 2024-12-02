@@ -1,0 +1,7 @@
+{
+    "LoginPageLocators" : {
+        "username_txt" : "input[placeholder='Username']",
+        "password_txt" : "input[placeholder='Password']",
+        "login_button" : "button[type='submit']"
+    }
+}

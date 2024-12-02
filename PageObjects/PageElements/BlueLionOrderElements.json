@@ -1,0 +1,22 @@
+{
+    "BlueLionOrderLocators": {
+        "product_locator": ":nth-child(2) > .product-cart-wrap > .product-content-wrap > h2 > a",
+        "Add_To_Cart_locator": ".cart > .btn-blue",
+        "Phone_Number_To_Login": "#phoneInput",
+        "Login_Phone_Number": ".ng-star-inserted.ng-dirty > .d-flex > .btn",
+        "First_Digit_OTP":".otp-inputs > :nth-child(1) > .form-control",
+        "Second_Digit_OTP":":nth-child(2) > .form-control",
+        "Third_Digit_OTP":".otp-inputs > :nth-child(3) > .form-control",
+        "Fourth_Digit_OTP":":nth-child(4) > .form-control",
+        "Proceed_To_Checkout":".btn.btn-blue.checkout.mt-3",
+        "No_Address_Added_Yet":".no-address > .btn",
+        "Add_a_new_Address":".btn.btn-blue.add-address",
+        "Place_Order":".total-pay > .btn-blue",
+        "Address_Line_1":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(1) > .form-control",
+        "Address_Line_2":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(2) > .form-control",
+        "City":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(3) > .form-control",
+        "Postal_Code":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(4) > .form-control",
+        "Country":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > :nth-child(5) > .form-select",
+        "Address_Save_Button":"#add-address > .modal-dialog > .modal-content > .modal-body > .form-ui > .row > .d-flex > .btn"
+    }
+}
